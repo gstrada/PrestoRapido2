@@ -28,7 +28,7 @@ $(document).on('deviceready', function(){
                 },
                 error: function(data){
                     console.log(data);
-                    alert('Ocurrio un error al enviar tus datos');
+                    alert(data[response]);
                 }
             });	
 			return false;
