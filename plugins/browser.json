@@ -1,0 +1,9 @@
+{
+    
+    "installed_plugins": {
+        
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.phonegap.prestorapido"
+        }
+    }
+}
