@@ -66,7 +66,7 @@ function showConfirm() {
            );
      }
 function exitFromApp(buttonIndex) {
-            if (buttonIndex==2){ navigator.app.exitApp();}
+            if (buttonIndex==1){ navigator.app.exitApp();}
      }
 function onBodyLoad() {
 	document.addEventListener("deviceready",onDeviceReady,false);
