@@ -21,7 +21,7 @@ $(document).on('deviceready', function(){
 					var dirURL = JSON.parse(data);
 					//alert(postData);
 					document.location.href = '#menu1';
-					var ref = window.open(dirURL, '_blank', 'location=yes');
+					var ref = window.open(dirURL, '_blank', 'location=no');
 					ref.addEventListener('loadstart', function() { alert('start: ' + event.url); });
 					ref.addEventListener('loadstop', function() { alert('stop: ' + event.url); });
 					ref.addEventListener('exit', function() { alert(event.type); });
