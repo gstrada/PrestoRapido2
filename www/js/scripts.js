@@ -30,7 +30,7 @@ function calcular() {
     }          
 }
 function salir() {
-    app.exitApp();
+    navigator.app.exitApp();
 }
 function llenaDatosMP() {
 	var datoMonto = document.getElementById("montodef").value;
