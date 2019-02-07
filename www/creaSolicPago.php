@@ -21,9 +21,9 @@ $nroCuenta = $_POST["numcta"];
 $nombreBanco = $_POST["nombco"];
 $montoOriginal = $_POST["montoPedido"];
 if (intval(substr($montoOriginal,2)) < 5000) {
-	$montoCInt = "$ ".strval(intval(substr($montoOriginal,2))+(intval(substr($montoOriginal,2))*0.48));
+	$montoCInt = "$ ".strval(intval(substr($montoOriginal,2))+(intval(substr($montoOriginal,2))*1.2));
 } else {
-	$montoCInt = "$ ".strval(intval(substr($montoOriginal,2))+(intval(substr($montoOriginal,2))*0.38));
+	$montoCInt = "$ ".strval(intval(substr($montoOriginal,2))+(intval(substr($montoOriginal,2))*1.2));
 }
 
 //$montoCInt = $_POST["totalPago"];
